@@ -1,0 +1,7 @@
+Student s=new Student();
+		Date dateOfBirth = null;
+		LocalDate dt = LocalDate.parse(dateOfBirth.toString());
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/YYYY");
+		String format = formatter.format(dt);
+		//s.setDateOfBirth(2018-11-01")
+		System.out.println(format);
